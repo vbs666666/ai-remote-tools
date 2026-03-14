@@ -14,7 +14,7 @@ Chinese documentation:
 - `01_安装并同步.cmd`
 - `02_启动ClaudeCode.cmd`
 - `03_启动Codex.cmd`
-- `04_检查本机条件.cmd`
+- `00_检查本机条件.cmd`
 
 ## Config
 
@@ -73,7 +73,7 @@ Requirements:
 For a new machine, run:
 
 ```text
-04_检查本机条件.cmd
+00_检查本机条件.cmd
 ```
 
 It checks:
@@ -211,7 +211,7 @@ Someone else can use this project if they have:
 
 Recommended order:
 
-1. `04_检查本机条件.cmd`
+1. `00_检查本机条件.cmd`
 2. `00_初始化本地环境.cmd`
 3. create `remote.env` from `remote.env.example`
 4. `01_安装并同步.cmd`
