@@ -1,5 +1,7 @@
 # ai-remote-tools
 
+[![中文说明](https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87-blue)](./README_CN.md)
+
 This project lets you use local `Codex` / `Claude Code` identity and network paths from a remote Linux server.
 
 Chinese documentation:
