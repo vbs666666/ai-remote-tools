@@ -2,6 +2,10 @@
 
 This project lets you use local `Codex` / `Claude Code` identity and network paths from a remote Linux server.
 
+Chinese documentation:
+
+- `README_CN.md`
+
 ## Entry Points
 
 - `00_初始化本地环境.cmd`
@@ -23,10 +27,10 @@ remote.env
 The project `.venv` is not ignored.
 This repository is intended to keep the local `uv` runtime environment in the project so it can be used directly after download on a similar Windows machine.
 
-Create it by copying:
+Quick setup:
 
 ```text
-remote.env.example
+copy remote.env.example remote.env
 ```
 
 Then edit at least:
@@ -78,6 +82,22 @@ It checks:
 - required remote server fields
 - local `Codex` state
 - local `Claude / cc-switch` files
+
+### 3. Create remote.env
+
+Create:
+
+```text
+remote.env
+```
+
+from:
+
+```text
+remote.env.example
+```
+
+and fill in your remote server fields before running the daily scripts.
 
 ## Daily Use
 
