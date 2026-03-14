@@ -1,0 +1,11 @@
+[project]
+name = "ai-remote-tools"
+version = "0.1.0"
+description = "Local helper runtime for ai-remote-tools"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "paramiko>=2.7,<4",
+]
+
+[tool.uv]
+package = false

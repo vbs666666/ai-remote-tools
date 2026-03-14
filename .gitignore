@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+claude-start.out.log
+claude-start.err.log
+codex-start.out.log
+codex-start.err.log
+remote.env
+.env
